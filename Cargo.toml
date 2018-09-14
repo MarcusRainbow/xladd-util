@@ -1,6 +1,14 @@
 [package]
 name = "xladd-util"
 version = "0.1.0"
-authors = ["marcus"]
+authors = ["Marcus Rainbow"]
+description = "An Excel addin (xll) built in Rust and containing some utility functions"
 
 [dependencies]
+winapi = { version = "0.3.5", features = ["winuser", "libloaderapi", "debugapi"] }
+widestring = "0.4.0"
+xladd = { path = "../xladd" }
+
+[lib]
+name = "xladd_util"
+crate-type = ["cdylib"]
