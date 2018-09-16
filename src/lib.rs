@@ -1,9 +1,8 @@
-pub mod entrypoint;
 pub mod xlauto;
+pub mod exports;
 
 extern crate xladd;
 extern crate winapi;
-extern crate widestring;
 
 #[cfg(test)]
 mod tests {
