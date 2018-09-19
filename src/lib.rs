@@ -1,4 +1,3 @@
-pub mod xlauto;
 pub mod exports;
 
 extern crate xladd;
