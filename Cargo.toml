@@ -2,6 +2,7 @@
 name = "xladd-util"
 version = "0.1.0"
 authors = ["Marcus Rainbow"]
+repository = "https://github.com/MarcusRainbow/xladd-util"
 description = "An Excel addin (xll) built in Rust and containing some utility functions"
 
 [dependencies]
